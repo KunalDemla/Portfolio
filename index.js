@@ -20,7 +20,13 @@ function goodbyesc()
     $("#scrolldown").fadeOut();
 }
 
-
+$(".projectimg").hover(function(){
+    $(this).css("opacity","80%");
+    $(this).animate({width:"82%"});
+},function(){
+    $(this).css("opacity","100%");
+    $(this).animate({width:"80%"});
+})
 
 
 
