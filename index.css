@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #050608;
+    font-family: EuroRoman;
+}
+
+.clearall{
+    clear: both;
+}
+
+#HoverIt{
+    animation: MoveUpDown 1s linear infinite;
+    color:rgb(195, 192, 192);
+    position: absolute;
+    left: 13%;
+    top: 16%;
+    font-size: 20px;
+    opacity: 50%;
+}
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
+  }
+
+#splineiframe{
+    float:left;
+    width: 35%;
+}
+
+/* #splinediv{
+    float: left;
+} */
+
+#HomeText{
+    width: 55%;
+    height: 80%;
+    float: left;
+    margin: auto;
+    position: relative;
+    left: 10%;
+    top: 20%;
+}
+
+.NameText{
+    color:white;
+    margin: auto;
+    font-size: 140px;
+}
+
+.redd{
+    color: #880D0D;
+}
+
+#Homehr{
+    background-color: #050608;
+    border: 1px solid #880D0D;
+    width: 750px;
+    position: relative;
+    left: -50px;
+}
+
+#HomeSkill{
+    color:white;
+    font-size: 32px;
+}
+
+#scrolldown{
+    color:white;
+    font-style: italic;
+font-weight: 400;
+font-size: 25px;
+margin-top:180px;
+margin-left: 370px;
+}
+
+#sndcont{
+    width: 100%;
+    height: 200%;
+    background-image: url(Images/Blackbg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#MySkillsCont{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#SubHead1{
+color: white;
+font-size: 100px;
+padding-left: 80px;
+padding-top: 50px;
+}
+
+#SubHead2{
+    color: white;
+    font-size: 100px;
+    padding-right: 80px;
+    text-align: right;
+    padding-top: 50px;
+    }
+
+#ProjectsCont{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.magical--underline {
+    cursor: pointer;
+    color:rgb(255, 255, 255);
+    /* background-image: linear-gradient(45deg, #225e9e 0%, #712c69 100%); */
+    background-image: linear-gradient(45deg, #9f1111 0%, #750d0d 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 5%;
+    background-position: 0 95%;
+    transition: background-size .25s linear, color .2s linear;
+    text-decoration: none;
+    padding: 2px;
+  }
+.magical--underline:hover {
+    color: rgb(0, 0, 0);
+    background-size: 100% 95%;
+}
+
+.js-scroll.scrolled {
+    opacity: 1;
+  }
+
+.js-scroll {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+
+  .scrolled.fade-in {
+    animation: fade-in 1s ease-in-out both;
+  }
+  
+
+  .scrolled.slide-left {
+    animation: slide-in-left 1s ease-in-out both;
+  }
+
+  .scrolled.slide-right {
+    animation: slide-in-right 1s ease-in-out both;
+  }
+
+  @keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-100px);
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  
+@keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(100px);
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+  #contactdiv{
+    background-image: url("Images/Whitebg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 50%;
+    width: 100%;
+    margin: 0;
+  }
+
+  #Githubcont{
+      font-size: 65px;
+      color:#050608;
+      margin: 0;
+      text-align: center;
+      padding-top: 20px;
+  }
+
+  #gitimg{
+      height: 70px;
+      margin: 0;
+      position: relative;
+      top: 10px;
+  }

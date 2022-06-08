@@ -3,10 +3,32 @@
         <title>Kunal Demla's Portfolio</title>
         <link rel = "icon" href = "Images/x_icon.png" type = "image/x-icon">
         <link href="index.css" rel="stylesheet" type="text/css">
+        <script src="JQuery-UI/external/jquery/jquery.js"></script>
+        <link href="JQuery-UI/jquery-ui.css" rel="stylesheet">
+        <script type="text/javascript" src="JQuery-UI/jquery-ui.js"></script>
     </head>
-    <body>
-        <h1> Under Construction</h1>
-        <iframe src='https://my.spline.design/untitled-c6bc090fa4c733c0a998888865c6ce09/' frameborder='0' width='100%' height='100%'></iframe>
+    <body onload="TurnDisplay()" onscroll="goodbyesc()">
+        <div id="splinediv">
+            <iframe id="splineiframe" src='https://my.spline.design/untitled-c6bc090fa4c733c0a998888865c6ce09/' frameborder='0' height='100%'></iframe>
+            <p id="HoverIt">Drag the Skull</p>
+        </div>
+        <div id="HomeText" class="Invi">
+            <h1 class="NameText">Hey! <span class="redd">I</span> am</h1>
+            <h1 class="NameText">Kunal <span class="redd">Demla.</span></h1>
+            <hr id="Homehr">
+            <h2 id="HomeSkill">Cyber <span class="redd">Security</span> •  Graphic <span class="redd">Designing</span> •  Competetive <span class="redd">Coding</span></h2>
+            <p id="scrolldown">Start scrolling to take a look at my portfolio!</p>
+        </div>
+        <div class="clearall"></div>
+        <div id="sndcont">
+            <div id="MySkillsCont">
+                <h2 id="SubHead1" class="js-scroll slide-left" >My <span class="magical--underline">Skills</span></h2>
+                <h2 id="SubHead2" class="js-scroll slide-right">Featured <span class="magical--underline">Projects</span></h2>
+            </div>
+        </div>
+        <div id="contactdiv">
+            <h3 id="Githubcont" class="js-scroll fade-in">Check out my <a href="https://github.com/KunalDemla" target="_blank"><img id="gitimg" src="Images/github.png"></a> for <span class="redd">more!</span></h3>
+        </div>
         <script type="text/javascript" src="index.js"></script>
     </body>
 </html>
