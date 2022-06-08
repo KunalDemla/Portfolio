@@ -28,6 +28,14 @@ $(".projectimg").hover(function(){
     $(this).animate({width:"80%"});
 })
 
+$(".lastrowimg").hover(function(){
+    $(this).css("opacity","80%");
+    $(this).animate({width:"5.7%"});
+},function(){
+    $(this).css("opacity","100%");
+    $(this).animate({width:"5.2%"});
+})
+
 
 
 const scrollElements = document.querySelectorAll(".js-scroll");
