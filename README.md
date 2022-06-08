@@ -10,4 +10,4 @@ Made using HTML, CSS, JavaScript and Jquery along with Iframe from Spline.
 
 ###### future updates needed-
 * responsiveness
-* more projects and schivements XD
+* more projects and achivements XD
