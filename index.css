@@ -81,7 +81,7 @@ margin-left: 370px;
 
 #sndcont{
     width: 100%;
-    height: 235%;
+    height: 345%;
     background-image: url(Images/Blackbg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -111,6 +111,14 @@ padding-top: 50px;
     padding-top: 50px;
     margin: 0;
     }
+
+
+#SubHead3{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 40px;
+}
 
 #ProjectsCont{
     width: 100%;
@@ -281,3 +289,34 @@ padding-top: 50px;
       width: 5.2%;
       padding: 0;
   }
+
+#AchivemnetsText{
+    border-left: white 2px solid;
+    width: 70%;
+    margin: auto;
+    height: auto;
+    color: white;
+    font-size: 130%;
+}
+
+#AchivementsUL{
+    color: white;
+    font-size: 170%;
+    width: 70%;
+    margin:10px auto;
+    padding-left: 10%;
+    padding-top : 1%;
+    padding-bottom: 1%;
+    border-left: white 2px solid;
+}
+
+.lielement{
+    margin-bottom: 13px;
+}
+
+.timelinehr{
+    width:12.25%;
+    position: relative;
+    top: 30px;
+    left: -58.1%;
+}
