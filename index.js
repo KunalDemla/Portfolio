@@ -78,3 +78,21 @@ const handleScrollAnimation = () => {
 window.addEventListener("scroll", () => { 
   handleScrollAnimation();
 });
+
+function checkIframeLoaded() {
+    // var iframe = document.getElementById('splineiframe');
+    // var iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+
+    // // Check if loading is complete
+    // if (  iframeDoc.readyState  == 'complete' ) {
+        TurnDisplay();
+        TurnLoader();
+    //     return;
+    // } 
+    // window.setTimeout(checkIframeLoaded, 100);
+}
+
+function TurnLoader(){
+    $(".loading").css("display","block");
+    $("#loader").css("display","none");
+}

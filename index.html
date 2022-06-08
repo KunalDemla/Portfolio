@@ -7,12 +7,18 @@
         <link href="JQuery-UI/jquery-ui.css" rel="stylesheet">
         <script type="text/javascript" src="JQuery-UI/jquery-ui.js"></script>
     </head>
-    <body onload="TurnDisplay()" onscroll="goodbyesc()">
-        <div id="splinediv">
+    <body onload="checkIframeLoaded()" onscroll="goodbyesc()">
+
+        <div id="loader">
+            <!-- <img id="LoaderGif" src="Images/Loader.gif"> -->
+            <img id="LoaderGif" src="Images/Loader5.gif">
+        </div>
+
+        <div id="splinediv" class="loading">
             <iframe id="splineiframe" src='https://my.spline.design/untitled-c6bc090fa4c733c0a998888865c6ce09/' frameborder='0' height='100%'></iframe>
             <p id="HoverIt">Drag the Skull</p>
         </div>
-        <div id="HomeText" class="Invi">
+        <div id="HomeText" class="Invi loading">
             <h1 class="NameText">Hey! <span class="redd">I</span> am</h1>
             <h1 class="NameText">Kunal <span class="redd">Demla.</span></h1>
             <hr id="Homehr">
@@ -20,13 +26,13 @@
             <p id="scrolldown">Start scrolling to take a look at my portfolio!</p>
         </div>
         <div class="clearall"></div>
-        <div id="sndcont">
+        <div id="sndcont" class="loading">
             <div id="MySkillsCont">
                 <h2 id="SubHead1" class="js-scroll slide-left" >My <span class="magical--underline">Skills</span></h2>
                 <img src="Images/Graph.png" id="graphimg" class="js-scroll fade-in">
                 <h2 id="SubHead2" class="js-scroll slide-right">Featured <span class="magical--underline">Projects</span></h2>
-                <span class="projectspan js-scroll fade-in"><a href="" ><img class="projectimg" src="Images/Crylya.png"></a><h3>Crylya WheelChair</h3><p>Hardware • <span class="redd">Arduino</span> • UI/UX</p></span>
-                <span class="projectspan js-scroll fade-in"><a href="" ><img class="projectimg" src="Images/PassDBMS.png"></a><h3>Password Manager</h3><p>Java • <span class="redd"> PL/SQL </span>• Cryptography</p></span>
+                <span class="projectspan js-scroll fade-in"><a href="https://github.com/ShreyaChopra13/HackTU3" target="_blank" ><img class="projectimg" src="Images/Crylya.png"></a><h3>Crylya WheelChair</h3><p>Hardware • <span class="redd">Arduino</span> • UI/UX</p></span>
+                <span class="projectspan js-scroll fade-in"><a href="https://github.com/gauravvv2204/PasswordManagementSystem" target="_blank" ><img class="projectimg" src="Images/PassDBMS.png"></a><h3>Password Manager</h3><p>Java • <span class="redd"> PL/SQL </span>• Cryptography</p></span>
                 <div class="clearall"></div>
                 <h2 id="SubHead3" class="js-scroll fade-in">Responsibilites & <span class="magical--underline">Achivements</span></h2>
                 <p id="AchivemnetsText" class="js-scroll fade-in">
@@ -43,7 +49,7 @@
             </div>
         </div>
         <div class="clearall"></div>
-        <div id="contactdiv">
+        <div id="contactdiv" class="loading">
             <h3 id="Githubcont" class="js-scroll fade-in-bottom">Check out my <a href="https://github.com/KunalDemla" target="_blank"><img id="gitimg" src="Images/github.png"></a> for <span class="redd">more!</span></h3>
             <h3 id="StayTouch" class="js-scroll fade-in-bottom">Stay in <span class="redd">Touch!</span></h3>
             <h3 id="lastrow" class="js-scroll fade-in-bottom">

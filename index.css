@@ -17,6 +17,7 @@ body{
     top: 16%;
     font-size: 20px;
     opacity: 50%;
+    user-select: none; 
 }
   
   @keyframes MoveUpDown {
@@ -319,4 +320,18 @@ padding-top: 50px;
     position: relative;
     top: 30px;
     left: -58.1%;
+}
+
+#loader{
+    display: block;
+}
+
+.loading{
+    display: none;
+}
+
+#LoaderGif{
+   width:20%;
+   margin-left: 37%;
+   margin-top: 200px;
 }
